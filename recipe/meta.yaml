@@ -1,5 +1,5 @@
 {% set name = "torch-complex" %}
-{% set version = "0.4.3" %}
+{% set version = "0.4.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/torch_complex-{{ version }}.tar.gz
-  sha256: 8b8ca33634d0c0fd376e0ad2af23f18904d10a0980f10db3fa4db776a6777f0b
+  sha256: 4153fd6b24a0bad689e6f193bfbd00f38283b1890d808bef684ddc6d1f63fd3f
 
 build:
   noarch: python
